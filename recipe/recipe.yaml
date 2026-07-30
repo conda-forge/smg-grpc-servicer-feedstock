@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.7.0
+  version: "0.8.0"
 
 package:
   name: smg-grpc-servicer
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/s/smg-grpc-servicer/smg_grpc_servicer-${{ version }}.tar.gz
-    sha256: 2cee0ebd1a6e797d23e7928a017bc766d6ced1e41a96696bd74bb90b800664a1
+    sha256: d7e730d8b2f44ab8378b4293fde1d8fa1037a3bacdf56984c91912e17a336f52
   - url: https://raw.githubusercontent.com/lightseekorg/smg/main/LICENSE
     sha256: be6e05da66141329ef9b092cf9561889baea1aa630576907dda3ec214f8da4eb
 
